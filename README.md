@@ -4,9 +4,9 @@
 The **Blog Platform** is a full-stack web application designed for users to create, edit, and manage blog posts. The platform allows users to register, log in, and manage their own posts, while administrators can manage users and posts. Users can also interact with posts by adding comments and organizing content using categories and tags.
 
 ## Technology Stack
-- **Backend**: NestJS (Node.js framework)
+- **Backend**: NestJS 
 - **Frontend**: React (JavaScript library)
-- **Database**: MongoDB or MySQL (to be determined)
+- **Database**: MongoDB or MySQL (to be determined) ???
 - **API Documentation**: Swagger
 
 ## Features
