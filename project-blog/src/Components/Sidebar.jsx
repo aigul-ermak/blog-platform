@@ -39,14 +39,14 @@ function Sidebar() {
 
         <div className='flex gap-x-4 items-center'>
 
-          <img src = "./src/assets/img/Logo-Lobo-PNG.png" className='w-20 h-20'/>
+          <img src = "./src/assets/img/menu (1).png" className={`w-12 h-12 ml-3 mt-2 cursor-pointer duration-500 ${open && "rotate-[360deg]"}`} onClick={() => setOpen(!open)}/>
         {/*<IoReorderThreeOutline className='w-10 h-10 ml-3 cursor-pointer duration-500'/>*/}       
 
         <h1 className={`origin-left font-medium text-xl duration-300 ${!open && "scale-0"}`}>Designer</h1>
 
         </div>
 
-        <ul className='pt-6 ml-5'>
+        <ul className='pt-6 ml-4'>
           {Menus.map((menu, index) => (
             <li key={index} className='text-sm gap-x-4 cursor-pointer p-2 hover:bg-light-white rounded-md' > {menu.name}</li>))}
         </ul>
