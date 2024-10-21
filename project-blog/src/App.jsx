@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './App.css'
+import Login from './Pages/Login'
 import Home from './Pages/Home'
-import Sidebar from './Components/Sidebar'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -10,8 +10,9 @@ function App() {
 
     <>
 
-      <Home/>
-      <Sidebar/>
+      <Login/>
+
+     {/*<Home/>*/}
       
     </>
   )

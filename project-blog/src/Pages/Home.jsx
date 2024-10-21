@@ -1,5 +1,6 @@
 import React from 'react'
 import Header from '../Components/Header'
+import Sidebar from '../Components/Sidebar'
 import Search from '../Components/Search'
 import Posts from '../Components/Posts'
 import Blogs from '../Components/Blogs'
@@ -10,6 +11,9 @@ function Home() {
     <div>
         {/* Header */}
         <Header/>
+
+        {/* Sidebar*/}
+        <Sidebar/>
 
         {/* Search */}
         <Search/>
